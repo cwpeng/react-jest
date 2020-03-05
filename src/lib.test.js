@@ -1,8 +1,5 @@
 import axios from "axios";
-import renderer from "react-test-renderer";
-import React from "react";
 import {add, avg} from "./lib.js";
-import App from "./components/App.js";
 test("Test Add Function", ()=>{
 	expect(add(3,4)).toBe(7);
 	expect(add(undefined,4)).toBeNaN();
@@ -39,8 +36,4 @@ test("Test Process After API Call", ()=>{
 		]
 	};
 	expect(avg(mockResponse.data)).toBe(13700);
-});
-test("Snapshot Testing for React Component", ()=>{
-	const tree=renderer.create(<App/>).toJSON();
-	expect(tree).toMatchSnapshot();
 });
