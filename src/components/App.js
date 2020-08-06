@@ -5,7 +5,7 @@ class App extends React.Component{
 	}
 	render(){
 		return <>
-			<h1>Unit Testing</h1>
+			<h2>Unit Testing</h2>
 			<main>Jest Snapshot Testing</main>
 		</>;
 	}
