@@ -4,9 +4,20 @@ class App extends React.Component{
 		super(props);
 	}
 	render(){
+		let negativeList;
+		if(this.props.data===null){
+			negativeList=<li>No Data</li>;
+		}else{
+			negativeList=this.props.data.filter((number)=>{
+				return number<0;
+			}).map((number)=>{
+				return <li>{number}</li>;
+			});
+		}
 		return <>
-			<h2>Unit Testing</h2>
+			<h3>Unit Testing</h3>
 			<main>Jest Snapshot Testing</main>
+			<ul>{negativeList}</ul>
 		</>;
 	}
 }

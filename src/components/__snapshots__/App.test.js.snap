@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test App Component 1`] = `
+Array [
+  <h3>
+    Unit Testing
+  </h3>,
+  <main>
+    Jest Snapshot Testing
+  </main>,
+  <ul>
+    <li>
+      -2
+    </li>
+    <li>
+      -1
+    </li>
+  </ul>,
+]
+`;
+
+exports[`Test App Component 2`] = `
+Array [
+  <h3>
+    Unit Testing
+  </h3>,
+  <main>
+    Jest Snapshot Testing
+  </main>,
+  <ul>
+    <li>
+      -2
+    </li>
+    <li>
+      -1
+    </li>
+  </ul>,
+]
+`;
+
+exports[`Test App Component 3`] = `
+Array [
+  <h3>
+    Unit Testing
+  </h3>,
+  <main>
+    Jest Snapshot Testing
+  </main>,
+  <ul />,
+]
+`;
+
+exports[`Test App Component 4`] = `
+Array [
+  <h3>
+    Unit Testing
+  </h3>,
+  <main>
+    Jest Snapshot Testing
+  </main>,
+  <ul>
+    <li>
+      No Data
+    </li>
+  </ul>,
+]
+`;
